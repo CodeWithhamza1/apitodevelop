@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none
+}
+
+body {
+    background: rgb(34, 33, 33);
+    color: white;
+}
+
+header {
+    background: black;
+    padding: 15px;
+    top: 0;
+    position: sticky;
+}
+
+ul {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+li a{
+    margin: 0 10px;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 60px auto 20px auto;
+    text-align: center;
+    /* background: #000; */
+}
+
+.container2 {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    /* background: #000; */
+}
+
+#quote {
+    color: orchid;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#joke {
+    color: yellow;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.poetry-lines {
+    margin-top: 50px;
+    font-size: 24px;
+    color: orange;
+    line-height: 1.5;
+}
+
+#new-line-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.new-line-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hr1 {
+    width: 20px;
+    /* height: 20px; */
+    transform: rotate(90deg);
+    /* background: white; */
+}

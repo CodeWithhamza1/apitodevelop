@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Poetry Lines</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li><hr class="hr1">
+          <li><a href="develop.html">Developer</a></li><hr class="hr1">
+          <li><a href="apis.html">APIs</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <h1>Poetry Lines</h1>
+      <div class="poetry-lines"></div>
+      <button id="new-line-btn">New Line</button>
+    </div>
+
+    <hr>
+
+    <div class="container2">
+    <h1>Heart-Touching Quotes</h1>
+    <div id="quote"></div>
+  <button onclick="getQuote()" class="new-line-btn">New Quote</button>
+</div>
+<hr>
+<div class="container2">
+  <h1>Joke Teller</h1>
+  <p id="joke"></p>
+  <button id="tell-joke-btn" class="new-line-btn">Tell me a joke</button>
+</div>
+
+<script src="app.js"></script>
+  </body>
+</html>
